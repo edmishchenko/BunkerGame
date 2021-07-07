@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bunkertest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Choice_qp"
+            android:label="@string/Choice_qp_name" />
+        <activity
+            android:name=".Library"
+            android:label="@string/Library_name" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/Settings_name" />
+        <activity
+            android:name=".Players_card"
+            android:label="@string/Players_card_name" />
+        <activity
+            android:name=".Players_name"
+            android:label="@string/Players_name_name" />
+        <activity
+            android:name=".Distribution_of_cards"
+            android:label="@string/Distribution_of_cards_name" />
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/MainMenu_name" />
+        <activity
+            android:name=".Rules"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card_Info" />
+    </application>
+
+</manifest>

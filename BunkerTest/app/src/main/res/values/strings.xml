@@ -1,0 +1,20 @@
+<resources>
+        <string name="app_name">Правила</string>
+        <string name="MainMenu_name">Главное меню</string>
+        <string name="Choice_qp_name">Выбор количества игроков</string>
+        <string name="Distribution_of_cards_name">Раздача карт</string>
+        <string name="Players_name_name">Имена Игроков</string>
+        <string name="Players_card_name">Карты</string>
+        <string name="Settings_name">Настройки</string>
+        <string name="Library_name">Библиотека</string>
+        <string name="TextView_title_rules">Правила</string>
+        <string name="TextView_rules">1.Rule1 \n2. Rule2\n1.Rule1 \n1.Rule1 \n1.Rule1 \n1.Rule1 \n1.Rule1 \n1.Rule1 \n1.Rule1 \n1.Rule1 \n</string>
+        <string name="Next_page">Дальше</string>
+        <string name="Button_Start">Start</string>
+        <string name="Button_Settings">Настройки</string>
+        <string name="Button_Library">Библиотека</string>
+        <string name="TextView_title_choice_qp">Укажите количество игроков</string>
+        <string name="less"><![CDATA[<]]></string>
+        <string name="more"><![CDATA[>]]></string>
+    <string name="Input_name">Введите имя</string>
+</resources>

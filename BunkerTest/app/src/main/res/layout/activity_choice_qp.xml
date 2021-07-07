@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".Choice_qp">
+
+    <TextView
+        android:id="@+id/TextView_title_choice_qp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#090909"
+        android:textSize="28sp"
+        android:text="@string/TextView_title_choice_qp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/less"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/less"
+            android:textSize="40sp"
+            android:layout_marginLeft="80dp"
+            android:background="#14ffffff"/>
+        <TextView
+            android:id="@+id/qp_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:textSize="40sp"
+            android:layout_marginStart="30sp" />
+
+        <Button
+            android:id="@+id/more"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            android:textSize="40sp"
+            android:background="#14ffffff"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/Button_next_choice_qp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/Next_page" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string-array name="Gender">
+        <item>Мужчина</item>
+        <item>Мужчина-беcплодный</item>
+        <item>Женщина</item>
+        <item>Женщина-беcплодна</item>
+    </string-array>
+    <string-array name="Profesion">
+        <item>Музыкант</item>
+        <item>Инженер-конструктор</item>
+        <item>Философ</item>
+        <item>Иммунолог</item>
+        <item>Комбайнер</item>
+        <item>Швея</item>
+        <item>Сантехник</item>
+        <item>Мед Сестра</item>
+    </string-array>
+</resources>
